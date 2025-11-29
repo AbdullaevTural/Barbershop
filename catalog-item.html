@@ -38,6 +38,187 @@
         </ul>
       </nav>
     </header>
-    
+    <main class="container">
+      <h1 class="page-title">Набор для путешествий «Baxter of California»</h1>
+
+      <ul class="breadcrumbs">
+        <li>
+          <a href="index.html">Главная</a>
+        </li>
+        <li>
+          <a href="#">Магазин</a>
+        </li>
+        <li>
+          <a href="#">Средства для ухода</a>
+        </li>
+        <li class="breadcrumbs-current">
+          Набор для путешествий «Baxter of California»
+        </li>
+      </ul>
+
+      <section class="product-photos">
+        <h2 class="visually-hidden">Изображения товара</h2>
+
+        <figure class="product-photo-full">
+          <img
+            src="img/product-big.jpg"
+            width="460"
+            height="498"
+            alt="Фото всего набора"
+            id="main-product-image"
+          />
+          <figcaption class="visually-hidden">
+            Основное изображение товара
+          </figcaption>
+        </figure>
+
+        <ul
+          class="product-photo-preview"
+          role="tablist"
+          aria-label="Миниатюры изображений"
+        >
+          <li>
+            <button
+              class="preview-button"
+              aria-controls="main-product-image"
+              aria-label="Показать фото в анфас"
+            >
+              <img
+                src="img/product-small-1.jpg"
+                width="140"
+                height="149"
+                alt="Миниатюра: фото в анфас"
+              />
+            </button>
+          </li>
+          <li>
+            <button
+              class="preview-button"
+              aria-controls="main-product-image"
+              aria-label="Показать фото в профиль"
+            >
+              <img
+                src="img/product-small-2.jpg"
+                width="140"
+                height="149"
+                alt="Миниатюра: фото в профиль"
+              />
+            </button>
+          </li>
+          <li>
+            <button
+              class="preview-button"
+              aria-controls="main-product-image"
+              aria-label="Показать фото отдельной части"
+            >
+              <img
+                src="img/product-small-3.jpg"
+                width="140"
+                height="149"
+                alt="Миниатюра: фото отдельной части"
+              />
+            </button>
+          </li>
+        </ul>
+      </section>
+
+      <section class="product-info" aria-labelledby="product-description">
+        <h2 id="product-description" class="visually-hidden">
+          Описание товара
+        </h2>
+
+        <div class="product-status">
+          <span class="product-availability" aria-live="polite"
+            >Есть в наличии</span
+          >
+          <span class="product-article">Артикул: dexter-ae</span>
+        </div>
+
+        <div class="product-description">
+          <p class="product-text">
+            Travel Kit – необходимый аксессуар во время любого путешествия. В
+            аккуратной кожаной сумке находится все, что нужно для бритья и ухода
+            за кожей во время рабочей поездки или отдыха: средство для умывания,
+            увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор
+            также может стать отличным подарком.
+          </p>
+        </div>
+
+        <div class="product-price-section">
+          <span class="product-price" itemprop="price" content="2900"
+            >2 900 ₽</span
+          >
+          <button
+            class="button"
+            type="button"
+            aria-label="Добавить товар в корзину"
+          >
+            Купить
+          </button>
+        </div>
+
+        <div class="product-contents">
+          <h3>В набор входят:</h3>
+          <ul role="list" aria-label="Состав набора">
+            <li role="listitem">Средство для умывания (50 мл)</li>
+            <li role="listitem">Увлажняющий крем (50 мл)</li>
+            <li role="listitem">Крем для бритья (50 мл)</li>
+            <li role="listitem">Крем после бритья, шампунь (50 мл)</li>
+            <li role="listitem">Удобная кожаная косметичка</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <p>Барбершоп «Бородинский»</p>
+      <a href="map.html">Как нас найти</a>
+      <p>АДРЕС: г. Санкт-Петербург, Б. Конюшенная, д. 19/8</p>
+      <p>Телефон: +7 (495) 666-02-66</p>
+      <div class="footer-social">
+        <b>Давайте дружить!</b>
+        <ul>
+          <li><a class="social-button" href="#">Вконтакте</a></li>
+          <li><a class="social-button" href="#">Инстаграм</a></li>
+          <li><a class="social-button" href="#">Фейсбук</a></li>
+        </ul>
+      </div>
+      <p class="footer-copyright">
+        <b>Разработано</b>
+        <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+      </p>
+    </footer>
+    <section>
+      <div class="modal-overlay modal-overlay--hidden"></div>
+      <div class="modal modal-login">
+        <button class="modal-close" type="button">Закрыть</button>
+        <!-- <form class="login-form" action="#" method="post">
+          <h2 class="login-form-title">Личный кабинет</h2>
+          <p class="login-form-text">Введите ваш логин и пароль</p>
+          <label>
+            Логин
+            <input type="text" name="login" required />
+          </label>
+          <label>
+            Пароль
+            <input type="password" name="password" required />
+          </label>
+          <button type="submit" class="button">Войти</button>
+        </form> -->
+      </div>
+    </section>
+    <section class="modal modal-map">
+      <button class="modal-close" type="button">Закрыть</button>
+      <div class="map-container">
+        <!-- <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1992.6486344862082!2d30.31547667614279!3d59.93873218178671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696319f5b2a4d8b%3A0x8e8b5e8e8e8e8e8e!2z0JrQuNC10LrRgdC60LjQuSDQv9C10YDQtdC90LjRjw!5e0!3m2!1sru!2sru!4v1616161616161!5m2!1sru!2sru"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe> -->
+      </div>
+    </section>
   </body>
 </html>
