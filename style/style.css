@@ -614,8 +614,6 @@ input[type="radio"].visually-hidden {
 .filter-input:focus + label::before,
 .filter-input:focus + label::before {
   border-color: #663d15;
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
 }
 
 .filter-input:disabled + label,
